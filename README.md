@@ -1,4 +1,4 @@
-# 🌐 Bilingual README / README Bilingüe
+Bilingual README / README Bilingüe
 
 This README file is available in both English and Spanish to ensure accessibility for a broader audience.  
 Este archivo README está disponible en inglés y español para garantizar accesibilidad a una audiencia más amplia.
@@ -9,23 +9,23 @@ Tenga en cuenta que esto aplica únicamente al archivo README y no necesariament
 Kindly refer to the section corresponding to your preferred language.  
 Por favor, diríjase a la sección correspondiente según su idioma de preferencia.
 
-# 🏗️ Data Warehouse Project
+Data Warehouse Project
 
-## 📖 Description
+Description
 This project implements a Data Warehouse using a layered architecture with `.csv` files as the data source. It follows an ELT (Extract, Load, Transform) approach to process and prepare data for analytics.
 
 ---
 
-## 🎯 Objective
+Objective
 To centralize data from multiple `.csv` files, clean and transform it, and make it available for analysis and reporting.
 
 ---
 
-## 🧱 Data Warehouse Architecture
+Data Warehouse Architecture
 
 The project is divided into three main layers:
 
-### 🥉 Bronze Layer (Raw Data)
+Bronze Layer (Raw Data)
 - Data is ingested directly from `.csv` files.
 - No transformations are applied.
 - Data is stored as-is.
@@ -34,7 +34,7 @@ The project is divided into three main layers:
 
 ---
 
-### 🥈 Silver Layer (Cleaned Data)
+Silver Layer (Cleaned Data)
 - Data cleaning and transformation processes:
   - Duplicate removal
   - Handling missing values
@@ -55,7 +55,7 @@ The project is divided into three main layers:
 
 ---
 
-## 🔄 Process Flow (ELT)
+Process Flow (ELT)
 
 1. **Extract:** Data is extracted from `.csv` files.
 2. **Load:** Data is loaded into the Bronze Layer without transformation.
@@ -63,8 +63,7 @@ The project is divided into three main layers:
 4. **Serve:** Final data is exposed through views in the Gold Layer.
 
 ---
-
-## 📂 Project Structure
+Project Structure
 data-warehouse-project/
 │
 ├── data/
@@ -83,7 +82,7 @@ data-warehouse-project/
 
 ---
 
-## ⚙️ Technologies Used
+Technologies Used
 - Database: (PostgreSQL / SQL Server / MySQL)
 - Language: SQL
 - Data Source: `.csv` files
@@ -91,7 +90,7 @@ data-warehouse-project/
 
 ---
 
-## ✅ Benefits
+Benefits
 - Centralized and structured data
 - Improved data quality
 - Easier analysis and decision-making
@@ -99,27 +98,27 @@ data-warehouse-project/
 
 ---
 
-## 📝 Notes
+Notes
 This project can be adapted to different data sources and business needs.
 ----------------------------------------------------------------------------------
 
-# 🏗️ Data Warehouse Project
+Data Warehouse Project
 
-## 📖 Descripción
+Descripción
 Este proyecto implementa un Data Warehouse basado en una arquitectura por capas utilizando archivos `.csv` como fuente de datos. Se sigue un enfoque ELT (Extract, Load, Transform) para procesar y preparar la información para análisis.
 
 ---
 
-## 🎯 Objetivo
+Objetivo
 Centralizar datos provenientes de múltiples archivos `.csv`, limpiarlos, transformarlos y disponibilizarlos para análisis y reportes.
 
 ---
 
-## 🧱 Arquitectura del Data Warehouse
+Arquitectura del Data Warehouse
 
 El proyecto está dividido en tres capas principales:
 
-### 🥉 Bronze Layer (Datos Crudos)
+Bronze Layer (Datos Crudos)
 - Se cargan los datos directamente desde archivos `.csv`.
 - No se aplican transformaciones.
 - Se mantiene la data tal cual se recibe.
@@ -128,7 +127,7 @@ El proyecto está dividido en tres capas principales:
 
 ---
 
-### 🥈 Silver Layer (Datos Limpios)
+Silver Layer (Datos Limpios)
 - Se realiza el proceso de limpieza y transformación de datos:
   - Eliminación de duplicados
   - Manejo de valores nulos
@@ -140,7 +139,7 @@ El proyecto está dividido en tres capas principales:
 
 ---
 
-### 🥇 Gold Layer (Datos para Negocio)
+Gold Layer (Datos para Negocio)
 - No se crean tablas físicas.
 - Se crean **vistas** que integran y relacionan las tablas de la capa Silver.
 - Datos listos para consumo por herramientas de BI y análisis.
@@ -149,7 +148,7 @@ El proyecto está dividido en tres capas principales:
 
 ---
 
-## 🔄 Flujo del Proceso (ELT)
+Flujo del Proceso (ELT)
 
 1. **Extract:** Extracción de datos desde archivos `.csv`.
 2. **Load:** Carga de datos en la Bronze Layer sin transformación.
@@ -158,7 +157,7 @@ El proyecto está dividido en tres capas principales:
 
 ---
 
-## 📂 Estructura del Proyecto
+Estructura del Proyecto
 
 data-warehouse-project/
 │
@@ -176,7 +175,7 @@ data-warehouse-project/
 └── requirements.txt
 
 ---
-## ⚙️ Tecnologías Utilizadas
+Tecnologías Utilizadas
 - Base de Datos: (SQL Server)
 - Lenguaje: SQL
 - Fuente de datos: Archivos `.csv`
@@ -184,7 +183,7 @@ data-warehouse-project/
 
 ---
 
-## ✅ Beneficios
+Beneficios
 - Datos centralizados y estructurados
 - Mejora en la calidad de la información
 - Facilita el análisis y la toma de decisiones
@@ -192,6 +191,6 @@ data-warehouse-project/
 
 ---
 
-## 📝 Notas
+Notas
 Este proyecto puede adaptarse a diferentes fuentes de datos y necesidades de negocio.
 -------------------------------------------------------------------------------------------------------
